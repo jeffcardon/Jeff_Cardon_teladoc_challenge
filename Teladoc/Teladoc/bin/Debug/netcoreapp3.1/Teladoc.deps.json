@@ -1,0 +1,103 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Teladoc/1.0.0": {
+        "dependencies": {
+          "HtmlAgilityPack": "1.11.43",
+          "Selenium.Support": "4.3.0",
+          "Selenium.WebDriver": "4.3.0",
+          "Selenium.WebDriver.ChromeDriver": "103.0.5060.13400"
+        },
+        "runtime": {
+          "Teladoc.dll": {}
+        }
+      },
+      "HtmlAgilityPack/1.11.43": {
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.11.43.0",
+            "fileVersion": "1.11.43.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "Selenium.Support/4.3.0": {
+        "dependencies": {
+          "Selenium.WebDriver": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/WebDriver.Support.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Selenium.WebDriver/4.3.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.1/WebDriver.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Selenium.WebDriver.ChromeDriver/103.0.5060.13400": {}
+    }
+  },
+  "libraries": {
+    "Teladoc/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HtmlAgilityPack/1.11.43": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C2gpt+S2tdFlQMOC3DK7rHZ8iv6EpDuIo4v0UTUSGX1F1bZ+NAQ3gp77HK8/JfCDszUm3Y2rHoyTp/TpO4KOIA==",
+      "path": "htmlagilitypack/1.11.43",
+      "hashPath": "htmlagilitypack.1.11.43.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "Selenium.Support/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-78f5qcda5YNj362T1Iuw1yRVY8lz5I8podvLLghLl87qMeNBpLNs9dJDKmG7TsIUC0ZalxL35pe1pGBVZU6dLA==",
+      "path": "selenium.support/4.3.0",
+      "hashPath": "selenium.support.4.3.0.nupkg.sha512"
+    },
+    "Selenium.WebDriver/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dDRbNrpzmII+ZnPLJF7ka2nygR/jnY0BfIl2rsyp1TJXQmr2ayv9tzq1ZBwqwRc1LkHC5zFAi1X3yboFWp0j+Q==",
+      "path": "selenium.webdriver/4.3.0",
+      "hashPath": "selenium.webdriver.4.3.0.nupkg.sha512"
+    },
+    "Selenium.WebDriver.ChromeDriver/103.0.5060.13400": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WdetrXq404253CfG3BLkafRG2BnuCUMIiYi7NNEetADtu97FkkFy512q1wEAxkbVQ5FV6P8ValFTeIgNTfvMSg==",
+      "path": "selenium.webdriver.chromedriver/103.0.5060.13400",
+      "hashPath": "selenium.webdriver.chromedriver.103.0.5060.13400.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Teladoc": {
+      "commandName": "Executable",
+      "executablePath": "D:\\Users\\jeffc\\source\\repos\\Teladoc\\Teladoc\\bin\\Debug\\netcoreapp3.1\\Teladoc.exe",
+      "commandLineArgs": "Add Mark novak customer 777888444"
+    }
+  }
+}
